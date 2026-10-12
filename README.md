@@ -1,6 +1,6 @@
 # Tampa Turf website demo
 
-An isolated, responsive website concept built with Next.js App Router, TypeScript, React, and Tailwind CSS. The green garden design uses original CSS illustrations and a simple project-enquiry path.
+An isolated, responsive website concept built with Next.js App Router, TypeScript, React, and Tailwind CSS. The green garden design uses locally hosted licensed stock photography and a simple project-enquiry path.
 
 ## Setup and verification
 
@@ -17,7 +17,7 @@ No local preview server was started during this work. Development and start scri
 
 ## Content and form boundaries
 
-Only the business name supplied through the repository URL is confirmed. Service categories are proposed and disclosed on the page; the business must confirm offerings and availability. Illustrations are concepts, not photographs of completed work. The demo contains no invented testimonials, licenses, statistics, prices, offers, phone numbers, or business addresses.
+Only the business name supplied through the repository URL is confirmed. Service categories are proposed and disclosed on the page; the business must confirm offerings and availability. Stock photos are inspiration, not photographs of completed client work. See IMAGE_CREDITS.md for sources and license. The demo contains no invented testimonials, licenses, statistics, prices, offers, phone numbers, or business addresses.
 
 The enquiry form validates sample details in the browser and changes local React state. It sends and stores nothing. There is no contact integration, analytics, external imagery, or external font service. Confirm approved content and contact details before connecting submissions or publishing.
 
@@ -38,3 +38,9 @@ Completed on 2026-10-11 with Node 24.15.0 and pnpm 10.18.1:
 The installer reported ESLint 9.39.3 as unsupported; its declared dependency range remains unchanged. Browser interaction checks remain pending. No preview server, deployment, or real form submission was performed.
 
 Build-generated next-env.d.ts is ignored as recommended by Next.js: https://nextjs.org/docs/app/api-reference/config/typescript . Strict TypeScript remains enabled; the build added the standard allowJs setting and development-type include path.
+
+## Photography update — 2026-10-12
+
+Hero and all three service illustrations replaced with licensed stock photography. Sources, license, optimization, and usage limits are documented in [IMAGE_CREDITS.md](IMAGE_CREDITS.md). Existing marketing copy, navigation, FAQs, and local-only enquiry behavior are preserved.
+
+Photography update: lint, strict typecheck, and production build passed. Original photos were inspected; live browser checks remain pending.
