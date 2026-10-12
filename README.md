@@ -44,3 +44,11 @@ Build-generated next-env.d.ts is ignored as recommended by Next.js: https://next
 Hero and all three service illustrations replaced with licensed stock photography. Sources, license, optimization, and usage limits are documented in [IMAGE_CREDITS.md](IMAGE_CREDITS.md). Existing marketing copy, navigation, FAQs, and local-only enquiry behavior are preserved.
 
 Photography update: lint, strict typecheck, and production build passed. Original photos were inspected; live browser checks remain pending.
+
+## Estimate and callback refinement — 2026-10-12
+
+Estimate-first navigation and hero CTAs, service-specific project prefill, repeated estimate actions, and a short three-field form (name, email or callback number, optional project details). Inline SVG replaces arrow and decorative star glyphs. Mobile actions and inputs have larger targets and 16px input text.
+
+No verified business phone exists in the project sources, so no invented number or direct-call link is displayed. Request a callback opens the phone-contact variant of the same local-only proof-of-concept form. No backend or integration is required for this demo.
+
+Lint, strict typecheck, and production build passed. Built HTML confirms two inputs plus one optional textarea, visible estimate/callback actions, and no form backend action. Licensed assets and credits are unchanged. Live browser interaction checks were not run; no local server or manual deployment was started.
